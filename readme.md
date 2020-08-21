@@ -1,6 +1,6 @@
 ### Config
 All config is stored in **config/app.php** and ignored by VCS by default,
-makse sure you've created your own. See example in config_example.php
+makse sure you've created your own. See example in **config_example.php**
 
 ### Entry point & Sub folder mode
 
