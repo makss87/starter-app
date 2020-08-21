@@ -1,0 +1,15 @@
+.nav {
+  @apply flex justify-between mb-7;
+}
+
+.nav__links {
+  ul {
+	@apply flex;
+	
+	li {
+	  &:not(:last-of-type) {
+		@apply mr-6;
+	  }
+	}
+  }
+}

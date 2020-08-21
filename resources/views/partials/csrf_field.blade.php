@@ -1,0 +1,1 @@
+<input type="hidden" name="{{ session()->getTokenKey()  }}" value="{{ session()->token() }}">

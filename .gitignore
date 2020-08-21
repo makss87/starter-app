@@ -1,0 +1,9 @@
+# Project
+config/app.php
+vendor/
+
+# IDE / Editor
+.idea
+
+# General
+.DS_Store

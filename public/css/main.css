@@ -1,0 +1,15 @@
+html {
+    font-size: 12px;
+}
+
+.container {
+    max-width: 1024px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}

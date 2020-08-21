@@ -1,0 +1,15 @@
+@import "../components/gallery";
+
+.full_image {
+  &.portrait{
+	@apply flex justify-center items-end w-full;
+
+	img{
+	  @apply max-h-screen;
+	}
+  }
+  
+  &.square{
+	@apply flex justify-center items-center;
+  }
+}
