@@ -1,12 +1,17 @@
 ### Config
-All config is stored in **config/app.php**.
+All config is stored in **config/app.php** and ignored by VCS by default,
+makse sure you've created your own. See example in config_example.php
 
-### Sub folder mode
+### Entry point & Sub folder mode
+
+Default website root is **/public**(recommended)
+
+For sub-folder mode:
 1. Make sure you've moved all contents of public dir into project root before.
 2. Amend **website_root** var in config/app.php
 
 ### Database
-Run {app}/migrate to create necessary tables
+Run {domain}/migrate **once** to create necessary tables
 
 ### Routing
 All app routes are stored in **app/Http/routes.php**.
